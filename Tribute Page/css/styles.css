@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(27, 54, 78, 0.054);
+}
+.name1 {
+  color: rgb(91, 186, 249);
+  text-align: center;
+  padding-top: 3%;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  /* font-style: normal; */
+  text-transform: lowercase;
+}
+/* .circle {
+  width: 10%;
+  height: 2%;
+  border-radius: 90%;
+  overflow: hidden;
+  text-align: center;
+} */
+.circle img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+}
+.flex-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 100hv;
+}
+.name2 {
+  color: yellow;
+}
+.text {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Courier New", Courier;
+}
+.list {
+  color: aliceblue;
+  font-family: "Courier New", Courier;
+  text-align: center;
+}
